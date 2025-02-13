@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "MakroRegular";
+  src: url("../fonts/Makro\ Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "MakroRegular", Arial, sans-serif;
+  background-color: #202124;
+  color: #fff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  text-align: center;
+}
+
+.big {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.small {
+  font-size: 1rem;
+  margin: 0.25rem 0;
+}
+
+.image {
+  width: 400px;
+  height: 500px;
+}
